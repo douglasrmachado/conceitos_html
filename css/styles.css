@@ -1,0 +1,62 @@
+/* 1 - Integracao inicial */
+
+h1 {
+    color: blue;
+}
+
+/* 2 - comentarios com CSS */
+
+/* 3 - id = #*/
+
+h3 {
+    color: green;
+}
+
+#title {
+    color: blue;
+}
+
+/* 4 - classes = . */
+
+.text {
+    color: blueviolet;
+}
+
+/* 5 - background */
+
+.background {
+    background-color: red;
+    color: blue;
+    font-size: 30px;
+}
+
+/* 6 - Dois elementos, uma regra */
+
+p, .title-small {
+    color: darkmagenta;
+}
+
+.title-small {
+    font-size: 25px;
+}
+
+/* 7 - bacground imagem */
+
+.background-image {
+    background-image: url("../img/meteoro.jpg");
+    padding: 20px;
+    color: white;
+}
+
+/* 8 - Largura e altura */
+
+#width-height {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+
+/* 9 - padding */
+#padding {
+    background-color: magenta;
+}
