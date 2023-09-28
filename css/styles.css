@@ -40,7 +40,7 @@ p, .title-small {
     font-size: 25px;
 }
 
-/* 7 - bacground imagem */
+/* 7 - background imagem */
 
 .background-image {
     background-image: url("../img/meteoro.jpg");
@@ -59,4 +59,176 @@ p, .title-small {
 /* 9 - padding */
 #padding {
     background-color: magenta;
+    padding: 20px;
+    margin: 20px;
+}
+/* 10 - Margin */
+#margin {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 20px;
+}
+
+/* 11 - Border */
+#border {
+    border: 3px solid red;
+    width: 100px;
+    height: 100px;
+    padding: 40px;
+    margin: 30px;
+}
+
+/* 12 - Border radius */
+#border-radius {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+/* 13 - cores */
+#hex, #rgb, #hsl {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#hex {
+    background-color: #10cf06;
+}
+
+#rgb {
+    background-color: rgb(123, 40, 99);
+}
+
+#hsl {
+    background-color: hsl(100, 20%, 80%);
+}
+
+/* 14 - Alinhamento */
+#center {
+    text-align: center;
+}
+
+p {
+    font-size: 35px;
+}
+
+/* 15 - Decoration */
+#underline {
+    text-decoration: underline;
+}
+
+#line {
+    text-decoration: line-through;
+}
+
+#sem-underline {
+    text-decoration: none;
+}
+
+/* 16 - font-size */
+#fonte-pequena {
+    font-size: 10px;
+}
+
+/* 17 - transform */
+#upper {
+    text-transform: uppercase;
+}
+
+#lower {
+    text-transform: lowercase;
+}
+
+/* 18 - font family */
+#serif {
+    font-family: Georgia;
+}
+
+#sans-serif {
+    font-family: Helvetica;
+}
+
+#cursive {
+    font-family: cursive;
+}
+
+/* 19 - display */
+.inline {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin: 5px;
+    display: inline-block;
+}
+
+.block {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin: 5px;
+    display: block;
+}
+
+/* 20 - ocultando elemento */
+#none {
+    display: none;
+}
+
+/* 21 - position */
+#relative,
+#absolute, 
+#fixed {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+#relative {
+    background-color: blueviolet;
+    position: relative; /* nao eh a solucao ideal */
+    top: 50px;
+    left: 20px;
+}
+
+#absolute {
+    background-color: #321;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+#fixed {
+    background-color: #455;
+    position: fixed;
+    top: 100px;
+    left: 45px;
+}
+
+/* 22 - relative com absolute */
+#relative-2 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    position: relative;
+}
+
+#absolute-1,
+#absolute-2 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+}
+
+#absolute-1 {
+    top: 10px;
+    left: 10px;
+}
+
+#absolute-2 {
+    bottom: 10px;
+    right: 10px;
 }
